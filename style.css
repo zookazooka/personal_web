@@ -1,0 +1,121 @@
+html {
+    background-color: #94879f;
+    
+}
+
+/* Site Navigation */
+.site_nav a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 50px;
+    border: 1px solid black;
+    background-color: white;
+    border-right: none;
+    border-left: none;
+}
+
+.site_nav ul {
+    max-width: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site_nav li {
+    list-style: none;
+    float: left;
+
+}
+
+.site_nav a:hover{
+    background-color: #94879f;
+}
+/* Site Navigation */
+
+/* Title */
+body header h1 {
+    max-width: 940px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black
+}
+
+/* Slogan */
+body header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* main content */
+.main {
+    max-width: 940px;
+    height: 500px;
+    padding: 15px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section1 {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+/* Quotes section */
+.sidebar {
+    margin-top: none;
+    float: left;
+    width: 70%;
+    font-size: 30px;
+}
+
+.sidebar span {
+    font-size: 20px
+}
+
+/* Quotes section */
+
+
+.main_content {
+    float: left;
+    width: 70%;
+}
+
+/* Clearfix float */
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+/* Clearfix float */
+
+
+.box1 {
+    background-color: darksalmon;
+    padding: 10px;
+    border:3px solid black;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.box2 {
+    background-color: darksalmon;
+    padding: 10px;
+    border:3px solid black;
+    width: 250px;
+}
